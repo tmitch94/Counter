@@ -8,7 +8,7 @@ document.getElementById("increase").onclick = function(){
     console.log(total);
 }
 
-document.getElementById("b2").onclick = function(){
+document.getElementById("reset").onclick = function(){
     total = 0;
     document.getElementById("total").textContent = total;
 }
