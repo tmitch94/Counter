@@ -1,3 +1,4 @@
+
 .center{
     margin: auto;
     width: 50%;
@@ -5,38 +6,20 @@
     text-align: center;
 }
 
-#b1{
-    background-color: aqua;
-    border-style: double;
-    height: 30px;
-    width: 100px;
+.button{
+    padding: 10px 20px;
+    font-size: 1.5em;
     color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-
+    background-color: hsl(202, 85%, 70%);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25s;
 }
-
-#b2{
-    background-color: aqua;
-    border-style: double;
-    height: 30px;
-    width: 100px;
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-#b3{
-    background-color: aqua;
-    border-style: double;
-    height: 30px;
-    width: 100px;
-    color: white;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+.button:hover{
+    background-color: hsl(202, 89%, 49%) ;
 }
 
 #total{
-    font-size: 3em;
+    font-size: 5em;
     font-family: Arial, Helvetica, sans-serif;
 }
